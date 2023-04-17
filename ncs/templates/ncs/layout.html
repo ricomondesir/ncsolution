@@ -55,7 +55,13 @@
                 <h2 class="setbordertb">Network and Computer Solution</h2>
                 <h3 class="mb-5"><em>Your IT Solution!</em></h3>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            <div>
+                {% block header %}
+                {% endblock %}                
+            </div>                
             </div>
+
+
         </header>
 
         <!-- About-->
@@ -141,7 +147,7 @@
         <section class="content-section bg-primary text-white">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Take the right decision for your business development!</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Contact us!</a>
+                <a class="btn btn-xl btn-light me-4" href="{% url 'contact' %}">Contact us!</a>
                 <!-- <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a> -->
             </div>
         </section>
