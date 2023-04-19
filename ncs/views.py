@@ -6,3 +6,6 @@ def index(request):
 
 def contact(request):
     return render(request, "ncs/contact.html")
+
+def team(request):
+    return render(request, "ncs/team.html")
