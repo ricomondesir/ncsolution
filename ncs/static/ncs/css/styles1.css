@@ -11,8 +11,27 @@
     text-decoration: none !important;
   }
 
-  .textstroke-white {
-    -webkit-text-stroke: 1px white;
-  }
+.textstroke-white {
+  -webkit-text-stroke: 1px white;
+}
+.textstroke-blue {
+  -webkit-text-stroke: 1px blue;
+}
+
+.bg-blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.bg-1 {
+  background-color: rgba(156, 184, 238, 0.651);
+}
+
+.text-grey {
+  color: rgb(58, 57, 57);
+}
+
+
+
 
   

@@ -9,3 +9,6 @@ def contact(request):
 
 def team(request):
     return render(request, "ncs/team.html")
+
+def asanka(request):
+    return render(request, "ncs/asanka.html")
