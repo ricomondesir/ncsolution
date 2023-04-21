@@ -24,14 +24,41 @@
 }
 
 .bg-1 {
-  background-color: rgb(156, 184, 238, 0.6);
+  background-color: rgb(156, 184, 238, 0.651);
 }
 
 .text-grey {
+  /*color: #959094;*/
   color: rgb(58, 57, 57);
 }
 
+.text-color-asanka {
+  color: #c30b0e;
+}
 
+.modal {
+  display: none;
+  position:absolute;
+  width: 300px;
+  top:auto;
+  left: auto;
+  box-shadow: rgb(196, 14, 17);
+  
+}
+
+.close {
+  position:absolute;
+  width: 30px;
+  top: 20px;
+  right: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: #da0909;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
   
