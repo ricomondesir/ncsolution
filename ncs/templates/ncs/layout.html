@@ -21,7 +21,7 @@
         -->
 
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="/ncs/static/ncs/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="{% static '/ncs/favicon.ico' %}" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Simple line icons-->
@@ -54,7 +54,7 @@
     <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="#page-top">N&C Solution</a></li>
+            <li class="sidebar-brand"><a href="{% url 'index' %}">N&C Solution</a></li>
             <li class="sidebar-nav-item"><a href="{% url 'index' %}">Home</a></li>
             <li class="sidebar-nav-item"><a href="#about">About</a></li>
             <li class="sidebar-nav-item"><a href="#services">Services</a></li>
@@ -149,7 +149,7 @@
                                     for your IT infrastructure development!</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="/static/ncs/images/makson_tower.jpeg" alt="..." />
+                        <img class="img-fluid" src="{% static '/ncs/images/makson_tower.jpeg' %}" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6 textshadow">
@@ -161,7 +161,7 @@
                                     Wireless Network infrastructure for organization</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="/static/ncs/images/makson_tower2.jpeg" alt="..." />
+                        <img class="img-fluid" src="{% static '/ncs/images/makson_tower2.jpeg' %}" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6 stextshadow">
@@ -173,7 +173,7 @@
                                     ASP.NET/C#</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="/static/ncs/images/webapp.jpeg" alt="..." />
+                        <img class="img-fluid" src="{% static '/ncs/images/webapp.jpeg' %}" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6 textshadow">
@@ -185,7 +185,7 @@
                                     connections .</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="/static/ncs/images/asanka_perspective2.jpg" alt="..." />
+                        <img class="img-fluid" src="{% static '/ncs/images/asanka_perspective2.jpg' %}" alt="..." />
                     </a>
                 </div>
             </div>
