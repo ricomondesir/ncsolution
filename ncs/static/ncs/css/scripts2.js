@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
     const localContentLabel = document.querySelector('#local-content-label');
     const localContent = document.querySelector('#local-content');
     const countryListLabel = document.querySelector('#country-list-lebel');
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         all_close[1].addEventListener('click', () => close_element(countryList));
         //all_close[all_close.length -1].addEventListener('click', () => close_element(countryList));
     }
+
 });
 
 function show_element(element) {
