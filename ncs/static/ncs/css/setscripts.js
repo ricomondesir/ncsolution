@@ -14,14 +14,22 @@ document.addEventListener('DOMContentLoaded', function() {
 function getradioValue(option) {
     //const radio = document.querySelectorAll('.form-check-input');
     //let radiochecked;
+    //document.querySelector('#subjectInput').value ='';
+    //document.querySelector('#subjectInput').value = option;
+    const subject = document.querySelector('#subjectInput');
 
-    console.log(option);
+    //console.log(option);
+
     if (option === 'other') {
-        document.querySelector('#subjectInput').style.display = 'block';
+        subject.style.display = 'block';
+        subject.value = '';
+        subject.required = true;
+        //console.log(document.querySelector('#subjectInput').value);
     } else {
-        document.querySelector('#subjectInput').style.display = 'none';
+        subject.style.display = 'none';
+        subject.value = option;
     }
-    
+    console.log(subject.value);
 
     //radio.forEach( element => {
     //    console.log(element.value);
