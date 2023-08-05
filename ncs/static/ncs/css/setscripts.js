@@ -23,10 +23,5 @@ function getradioValue(option) {
         subject.style.display = 'none';
         subject.value = option;
     }
-    console.log(subject.value);
 
-    //radio.forEach( element => {
-    //    console.log(element.value);
-    
-    //}); 
 }
