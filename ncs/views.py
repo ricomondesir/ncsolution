@@ -22,10 +22,14 @@ def contact(request):
         try:
 
             message = '''
-            New message: {}
-
             From: {}
-            '''.format(data['message'], data['email'])
+            Name: {}
+            Subject: {}
+    
+            New message: 
+            {}
+
+            '''.format(data['email'], data['name'], data['subject'], data['message'])
             send_mail(data['subject'], message, '', ['ncsayiti@gmail.com'])
 
             return render(request, "ncs/contact.html", {
