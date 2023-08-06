@@ -38,7 +38,7 @@ function hideSidebar() {
     const menuToggleTimes = document.body.querySelector('.menu-toggle > .fa-xmark');
 
     sidebarWrapper.classList.remove('active');
+    menuToggleTimes.classList.remove('fa-xmark');
     menuToggleTimes.classList.add('fa-bars');
-
     menuToggle.classList.add('active');   
 }

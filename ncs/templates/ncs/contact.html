@@ -6,7 +6,12 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 p-1 bg-1 border">
             <h2 class="mb-0">Contact us!</h2>
-            <form class="was-validated">
+           
+            <form class="was-validated" action="" method="POST">
+                {% csrf_token %}
+                {% if message %}
+                    <div class="bg-{{alert}} bg-opacity-75 px-3 text-white">{{ message }}</div>
+                {% endif %} 
                 <hr class="mt-0">
                 <div id="radio">
                     <div class="form-check form-check-inline">
@@ -34,15 +39,19 @@
                 <hr>
                 <div class="form-group">
                     <!--<label for="exampleFormControlInput1">Email address</label>-->
-                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                    <input type="text" name="full-name" class="form-control" id="nameInput" placeholder="Full name" required>
                 </div>
                 <div class="form-group pt-3">
                     <!--<label for="exampleFormControlInput1">Email address</label>-->
-                    <input type="text" class="form-control" id="subjectInput" placeholder="Subject">
+                    <input type="email" name="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group pt-3">
+                    <!--<label for="exampleFormControlInput1">Email address</label>-->
+                    <input type="text" name="subject" class="form-control" id="subjectInput" placeholder="Subject">
                 </div>
                 <div class="form-group  pt-3">
                     <!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
-                    <textarea class="form-control" id="messageTextarea" rows="3" placeholder="Message" required></textarea>
+                    <textarea class="form-control" name="message" id="messageTextarea" rows="3" placeholder="Message" required></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary mb-2 mt-3">Send e-mail</button>
