@@ -7,7 +7,7 @@
         <div class="row gx-4 gx-lg-5 p-1 bg-1 border">
             <h2 class="mb-0">Contact us!</h2>
            
-            <form class="was-validated" action="" method="POST">
+            <form class="was-validated" action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
                 {% if message %}
                     <div class="bg-{{alert}} bg-opacity-75 px-3 text-white">{{ message }}</div>
