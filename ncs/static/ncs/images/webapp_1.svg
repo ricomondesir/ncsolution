@@ -9,7 +9,7 @@
    sodipodi:docname="sitesurvey11.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
    xml:space="preserve"
-   inkscape:export-filename="../16c83fab/webapp_4.svg"
+   inkscape:export-filename="sitesurvey_2.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -40,19 +40,7 @@
        orientation="1,0"
        id="guide38514"
        inkscape:locked="false" /></sodipodi:namedview><defs
-     id="defs782"><inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="110.50455 : 85.484506 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="510.50455 : 85.484506 : 1"
-       inkscape:persp3d-origin="310.50455 : 52.151173 : 1"
-       id="perspective14445" /><inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="64.594735 : 99.634407 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="464.59474 : 99.634407 : 1"
-       inkscape:persp3d-origin="264.59474 : 66.301074 : 1"
-       id="perspective13799" /><style
+     id="defs782"><style
        type="text/css"
        id="style780">#holder_17f0b0756b3 text { fill:#555;font-weight:normal;font-family:Helvetica, monospace;font-size:40pt } </style><clipPath
        clipPathUnits="userSpaceOnUse"
@@ -1492,17 +1480,6 @@ SMIQQgihiiQMIYQQqkjCEEIIoYokDCGEEKpIwhBCCKHK/wdMr3pfDnSIQAAAAABJRU5ErkJggg==
          x="22.068476"
          y="96.579147"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.938px;font-family:Karumbi;-inkscape-font-specification:'Karumbi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.998451">Assessment</tspan></text><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.938px;line-height:1.25;font-family:Karumbi;-inkscape-font-specification:'Karumbi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.998451"
-       x="68.021736"
-       y="111.4629"
-       id="text1131-6"
-       transform="skewX(24.703379)"><tspan
-         sodipodi:role="line"
-         id="tspan1129-1"
-         x="68.021736"
-         y="111.4629"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.938px;font-family:Karumbi;-inkscape-font-specification:'Karumbi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.998451" /></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.938px;line-height:1.25;font-family:Karumbi;-inkscape-font-specification:'Karumbi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.998451"
        x="1.2352285"
@@ -3682,7 +3659,7 @@ wDnvNSk/THJFt6SFfrFdXQVNmt468arWtd8F35CQ2SBGcDKOjvmnRaKqrSmMg1Vu6OEO3ZwuAILT
      inkscape:groupmode="layer"
      id="g20328"
      inkscape:label="Layer 7"
-     style="display:none"><use
+     style="display:inline"><use
        id="use37583"
        inkscape:spray-origin="#path37565"
        xlink:href="#path37565"
@@ -3749,19 +3726,19 @@ wDnvNSk/THJFt6SFfrFdXQVNmt468arWtd8F35CQ2SBGcDKOjvmnRaKqrSmMg1Vu6OEO3ZwuAILT
        transform="matrix(1,0,-0.00441988,0.77660539,49.575539,-12.572644)"><tspan
          x="201.62971"
          y="49.360546"
-         id="tspan54898">HTML
+         id="tspan52410">HTML
 </tspan><tspan
          x="201.62971"
          y="99.360542"
-         id="tspan54900">CSS
+         id="tspan52412">CSS
 </tspan><tspan
          x="201.62971"
          y="149.36054"
-         id="tspan54902">Javascript
+         id="tspan52414">Javascript
 </tspan><tspan
          x="201.62971"
          y="199.36054"
-         id="tspan54904">React</tspan></text><use
+         id="tspan52416">React</tspan></text><use
        id="use37567"
        inkscape:spray-origin="#path37565"
        xlink:href="#path37565"
@@ -4103,7 +4080,7 @@ wDnvNSk/THJFt6SFfrFdXQVNmt468arWtd8F35CQ2SBGcDKOjvmnRaKqrSmMg1Vu6OEO3ZwuAILT
      inkscape:groupmode="layer"
      id="g42217"
      inkscape:label="Layer 10"
-     style="display:inline"><rect
+     style="display:none"><rect
        style="display:inline;fill:#5c88c9;fill-opacity:0.751358;stroke:#000000;stroke-width:0.888;stroke-dasharray:none"
        id="rect42215"
        width="399.01193"

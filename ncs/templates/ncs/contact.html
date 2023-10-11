@@ -53,7 +53,16 @@
                     <!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
                     <textarea class="form-control" name="message" id="messageTextarea" rows="3" placeholder="Message" required></textarea>
                 </div>
+                <div class="form-group  pt-3">
+                    <div class="col-md-5 bg-white border p-3">{{form.captcha_field}}</div>
+                    
+                    <!--
 
+                      <button class='js-captcha-refresh' >Refresh Captcha</button>  
+                    -->
+                    
+                </div>
+                
                 <button type="submit" class="btn btn-primary mb-2 mt-3">Send e-mail</button>
             </form>
         </div>
