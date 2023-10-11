@@ -5,12 +5,22 @@ from django.core.mail import send_mail
 def index(request):
     return render(request, "ncs/index.html")
 
+def portfolio(request, id_portfolio):
+ 
+    portfolio = id_portfolio
+
+    return render(request, "ncs/portfolio.html", {
+        "portfolio" : portfolio
+    })
+
 def contact(request):
     if request.method == 'POST':
         name = request.POST['full-name']
         email = request.POST['email']
         subject = request.POST['subject']
         message = request.POST['message']
+
+        
 
         data = {
             'name' : name,

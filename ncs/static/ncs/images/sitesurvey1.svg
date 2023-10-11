@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="200"
+   viewBox="0 0 400 200"
+   preserveAspectRatio="none"
+   version="1.1"
+   id="svg791"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+
+  <defs
+     id="defs782">
+    <style
+       type="text/css"
+       id="style780">#holder_17f0b0756b3 text { fill:#555;font-weight:normal;font-family:Helvetica, monospace;font-size:40pt } </style>
+  </defs>
+  <rect
+     style="fill:#008080;stroke:none;stroke-width:0.360027"
+     id="rect964"
+     width="399.63998"
+     height="199.81999"
+     x="0"
+     y="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="132.45671"
+     y="114.91211"
+     id="text1020"><tspan
+       sodipodi:role="line"
+       id="tspan1018"
+       x="132.45671"
+       y="114.91211">Slide 1</tspan></text>
+</svg>
