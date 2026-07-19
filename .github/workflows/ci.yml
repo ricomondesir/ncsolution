@@ -1,0 +1,26 @@
+name: NCSCICD
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test_project:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Install dependencies for tests
+      run: |
+        python3 -m pip install --upgrade pip
+        pip3 install --user -r requirements.txt
+
+    #- name: Run Django unit tests
+    #  run: |
+    #    python3 manage.py test
