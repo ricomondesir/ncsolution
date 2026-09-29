@@ -52,13 +52,13 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand"><a href="index.html">N&C Solution</a></li>
-            <li class="sidebar-nav-item"><a href="index.html">Home</a></li>
+            <li class="sidebar-nav-item"><a href="https://webmail.itxwave.com/">Login</a></li>
             <li class="sidebar-nav-item"><a href="#about">About</a></li>
             <li class="sidebar-nav-item"><a href="#services">Services</a></li>
             <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="sidebar-nav-item"><a href="team.html">Team</a></li>
-            <!--
-            <li class="sidebar-nav-item"><a href="contact.html">Contact</a></li>-->
+            <!--<li class="sidebar-nav-item"><a href="team.html">Team</a></li>-->
+            
+            <li class="sidebar-nav-item"><a href="mailto:info@nandcs.com">Contact</a></li>
         </ul>
     </nav>
 
@@ -192,7 +192,8 @@
             </div>
             <div class="row gx-0 textshadow">
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="{% url 'portfolio' 1 %}" id="itsurvey">
+                    <!--<a class="portfolio-item" href="{% url 'portfolio' 1 %}" id="itsurvey">-->
+                    <a class="portfolio-item" href="#" id="itsurvey">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2" >IT Survey</div>
@@ -204,7 +205,8 @@
                     </a>
                 </div>
                 <div class="col-lg-6 textshadow">
-                    <a class="portfolio-item" href="{% url 'portfolio' 2 %}" id="intranet">
+                    <!--<a class="portfolio-item" href="{% url 'portfolio' 2 %}" id="itsurvey">-->
+                    <a class="portfolio-item" href="#" id="intranet">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2" >Intranet</div>
@@ -216,7 +218,8 @@
                     </a>
                 </div>
                 <div class="col-lg-6 stextshadow">
-                    <a class="portfolio-item" href="{% url 'portfolio' 3 %}" id="webapp">
+                    <!--<a class="portfolio-item" href="{% url 'portfolio' 3 %}" id="itsurvey">-->
+                    <a class="portfolio-item" href="#" id="webapp">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2" >Web app</div>
@@ -228,7 +231,8 @@
                     </a>
                 </div>
                 <div class="col-lg-6 textshadow">
-                    <a class="portfolio-item" href="{% url 'asanka' %}" id="asanka">
+                    <!--<a class="portfolio-item" href="{% url 'asanka' %}" id="itsurvey">-->
+                    <a class="portfolio-item" href="#" id="asanka">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2" >ASANKA</div>
@@ -263,8 +267,10 @@
             <div class="row small mb-4 pt-3 border-top border-bottom border-primary text-muted ">
                 <div class="col-lg-3">
                     <ul class="list-unstyled ">
-                        <h5 class="mb-0">About</h5>
-                        <a class="nounderline" href="{% url 'team' %}"><li class="px-3">Team</li></a>
+                        <h5 class="mb-0">N&C Solution</h5>
+                        <!--<a class="nounderline" href="{% url 'team' %}"><li class="px-3">Team</li></a>-->
+                        <a class="nounderline" href="mailto:info@nandcs.com"><li class="px-3">✉ info@nandcs.com</li></a>
+                        <li class="px-3">✆ +509 3775 5788</li>
 
                     </ul>                    
                 </div>
@@ -275,7 +281,7 @@
                         <a class="nounderline" href="#itsurvey"><li class="px-3">Site Survey</li></a>
                         <a class="nounderline" href="#intranet"><li class="px-3">Intranet</li></a>
                         <a class="nounderline" href="#webapp"><li class="px-3">Web appA</li></a>
-                        <a class="nounderline" href="{% url 'asanka' %}" target="_blank"><li class="px-3">ASANKA</li></a>
+                        <a class="nounderline" href="#asanka"><li class="px-3">ASANKA</li></a>
                     </ul>                    
                 </div>
 
@@ -284,7 +290,7 @@
                         <h5 class="mb-0">Partners</h5>
                         <a class="nounderline" href="https://www.inveneo.org/" target="_blank"><li class="px-3">Inveneo</li></a>
                         <a class="nounderline" href="https://techaide.global/" target="_blank"><li class="px-3">TECHAiDE</li></a>
-                        <a class="nounderline" href="http://teklib.net/" target="_blank"><li class="px-3">Teklib</li></a>
+                        <a class="nounderline" href="https://hitmosa.com/" target="_blank"><li class="px-3">HITMO S.A.</li></a>
                         <a class="nounderline" href="#!"><li class="px-3">Haiti Tower</li></a>
                     </ul>                    
                 </div>
@@ -322,7 +328,7 @@
                         <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-instagram"></i></a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; 2011 - {% now 'Y' %} | N&C Solution</p>
+                <p class="text-muted small mb-0">Copyright &copy; 2011 | N&C Solution</p>
             </div>
         </div>
     </footer>
